@@ -9,7 +9,7 @@ function HeroContents({}: Props) {
         <div className="max-w-3xl w-[95%] mx-auto">
           <h1 className=" text-5xl md:text-6xl font-bebas opacity-70">
             Dragon Farm <br />
-            is comingmax-w-3xl
+            is coming
           </h1>
           <p className=" text-lg md:text-xl py-5 md:py-10 opacity-70  ">
             A new Dragon Tale is being written in the depths of Arbitrum

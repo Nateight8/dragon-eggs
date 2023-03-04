@@ -33,7 +33,7 @@ type GLTFActions = Record<ActionName, THREE.AnimationAction>;
 export function Dragon(props: JSX.IntrinsicElements["group"]) {
   const group = React.createRef<THREE.Group>();
   const { nodes, materials, animations } = useGLTF(
-    "models/dragon/scene.gltf"
+    "models/dragon/scene.glb"
   ) as GLTFResult;
 
   const { actions } = useAnimations(animations, group);
@@ -91,4 +91,4 @@ export function Dragon(props: JSX.IntrinsicElements["group"]) {
   );
 }
 
-useGLTF.preload("models/dragon/scene.gltf");
+useGLTF.preload("models/dragon/scene.glb");
